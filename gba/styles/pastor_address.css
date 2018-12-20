@@ -1,0 +1,23 @@
+/* :: Pastor's Address */
+.call-to-action-area {
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed; }
+  .call-to-action-area .call-to-action-content h6 {
+    font-weight: 600;
+    color: #c92f2f;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+    margin-bottom: 30px; }
+  .call-to-action-area .call-to-action-content h2 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 50px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .call-to-action-area .call-to-action-content h2 {
+        font-size: 30px; } }
+    @media only screen and (max-width: 767px) {
+      .call-to-action-area .call-to-action-content h2 {
+        font-size: 24px; } }
